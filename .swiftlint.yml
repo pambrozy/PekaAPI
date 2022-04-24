@@ -1,0 +1,34 @@
+opt_in_rules:
+    - trailing_comma
+    - empty_count
+    - empty_string
+    - fatal_error_message
+    - modifier_order
+    - toggle_bool
+    - convenience_type
+    - colon
+    - comma
+    - identifier_name
+    - first_where
+    - last_where
+    - sorted_first_last
+    - contains_over_first_not_nil
+    - contains_over_filter_count
+    - contains_over_filter_is_empty
+    - empty_collection_literal
+    - sorted_imports
+    - multiline_arguments_brackets
+    - unneeded_parentheses_in_closure_argument
+    - no_extension_access_modifier
+    - conditional_returns_on_newline
+    - file_header
+
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  .*?\.swift
+                    \/\/  PekaAPI
+                    \/\/
+                    \/\/  Created by .*? on \d{2}\.\d{2}\.\d{4}\.
+                    \/\/  Copyright © \d{4} Przemysław Ambroży
+                    \/\/
