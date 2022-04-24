@@ -7,6 +7,7 @@ jobs:
     name: Build & Test
     runs-on: macos-latest
     steps:
+      - uses: fwal/setup-swift@v1
       - uses: actions/checkout@v3
       - name: Lint
         run: swiftlint
