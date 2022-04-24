@@ -1,0 +1,16 @@
+name: Build & Test
+
+on: [push]
+
+jobs:
+  macos:
+    name: Build & Test
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint
+        run: swiftlint
+      - name: Build
+        run: swift build
+      - name: Test
+        run: swift test
