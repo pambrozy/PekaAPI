@@ -27,7 +27,7 @@ public class PekaAPI {
         self.session = session
     }
 
-    func makeRequest(_ method: String, parameters: [String: Any]) throws -> URLRequest {
+    private func makeRequest(_ method: String, parameters: [String: Any]) throws -> URLRequest {
         let parametersData = try JSONSerialization.data(withJSONObject: parameters, options: [])
         guard let parametersString = String(data: parametersData, encoding: .utf8) else {
             throw ApiError.encodingParameters
