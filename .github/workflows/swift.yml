@@ -1,16 +1,16 @@
-name: Build & Test
+name: Lint, Build & Test
 
-on: [push]
+on: workflow_dispatch
 
 jobs:
   macos:
-    name: Build & Test
+    name: Lint, Build & Test
     runs-on: macos-latest
     steps:
       - uses: fwal/setup-swift@v1
       - uses: actions/checkout@v3
       - name: Lint
-        run: swiftlint
+        run: swiftlint lint --strict
       - name: Build
         run: swift build
       - name: Test
