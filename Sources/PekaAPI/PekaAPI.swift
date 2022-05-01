@@ -8,17 +8,28 @@
 
 import Foundation
 
+/// A class responsible for fetching information from the PEKA API endpoints.
 public class PekaAPI {
-    public enum ApiError: Error {
+    /// Represents an error that may occur when creating the request.
+    public enum RequestMakingError: Error {
+        /// Indicates that the parameters of teh request can not be encoded.
         case encodingParameters
+        /// Indicates that the body of the request can not be encoded.
         case encodingBody
     }
 
+    /// The URL of the endpoint.
     public let url: URL
+
+    /// The URLSession used to make the calls to the endpoint.
     public let session: URLSession
 
     private let decoder = JSONDecoder()
 
+    /// Creates a new instance of the class.
+    /// - Parameters:
+    ///   - url: The URL of the endpoint.
+    ///   - session: The URLSession to use to make the calls to the endpoint.
     public init(
         url: URL = URL(string: "http://www.peka.poznan.pl/vm/method.vm")!,
         session: URLSession = .shared
@@ -30,7 +41,7 @@ public class PekaAPI {
     private func makeRequest(_ method: String, parameters: [String: Any]) throws -> URLRequest {
         let parametersData = try JSONSerialization.data(withJSONObject: parameters, options: [])
         guard let parametersString = String(data: parametersData, encoding: .utf8) else {
-            throw ApiError.encodingParameters
+            throw RequestMakingError.encodingParameters
         }
         var components = URLComponents()
         components.queryItems = [
@@ -38,7 +49,7 @@ public class PekaAPI {
             URLQueryItem(name: "p0", value: parametersString)
         ]
         guard let bodyData = components.percentEncodedQuery?.data(using: .utf8) else {
-            throw ApiError.encodingBody
+            throw RequestMakingError.encodingBody
         }
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
@@ -62,6 +73,9 @@ public class PekaAPI {
 }
 
 extension PekaAPI {
+    /// Searches of the stop points whose names match the query.
+    /// - Parameter query: Part of the stop point's name.
+    /// - Returns: A list of stop points matching the query.
     public func stopPoints(query: String) async throws -> [StopPoint] {
         try await runRequest(
             method: "getStopPoints",
@@ -70,6 +84,9 @@ extension PekaAPI {
         ).success
     }
 
+    /// Returns a list of bollards and directions for a given stop point.
+    /// - Parameter name: The name of the stop point.
+    /// - Returns: A list of bollards and directions.
     public func bollardsByStopPoint(name: String) async throws -> [BollardDirections] {
         try await runRequest(
             method: "getBollardsByStopPoint",
@@ -78,6 +95,9 @@ extension PekaAPI {
         ).success.bollards
     }
 
+    /// Returns a list of bollards and directions for a given street name.
+    /// - Parameter name: The name of the street.
+    /// - Returns: A list of bollards and directions.
     public func bollardsByStreet(name: String) async throws -> [BollardDirections] {
         try await runRequest(
             method: "getBollardsByStreet",
@@ -86,6 +106,9 @@ extension PekaAPI {
         ).success.bollards
     }
 
+    /// Searches for lines matching the query.
+    /// - Parameter query: Part of the line's name.
+    /// - Returns: A list of lines matching the query.
     public func lines(query: String) async throws -> [Line] {
         try await runRequest(
             method: "getLines",
@@ -94,6 +117,9 @@ extension PekaAPI {
         ).success
     }
 
+    /// Searches for streets matching the query.
+    /// - Parameter query: Part of the line's name.
+    /// - Returns: A list of streets matching the query.
     public func streets(query: String) async throws -> [Street] {
         try await runRequest(
             method: "getStreets",
@@ -102,6 +128,9 @@ extension PekaAPI {
         ).success
     }
 
+    /// Returns the departure times for a given bollard.
+    /// - Parameter symbol: The symbol of the bollard.
+    /// - Returns: The deparrture times.
     public func times(symbol: String) async throws -> BollardWithTimes {
         try await runRequest(
             method: "getTimes",
@@ -110,6 +139,9 @@ extension PekaAPI {
         ).success
     }
 
+    /// Returns the departure times for bollards for a given stop.
+    /// - Parameter stopName: The name of the stop point.
+    /// - Returns: The deparrture times for bollards.
     public func times(stopName: String) async throws -> TimesForAllBollards {
         try await runRequest(
             method: "getTimesForAllBollards",
