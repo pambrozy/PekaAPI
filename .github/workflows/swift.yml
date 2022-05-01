@@ -1,6 +1,6 @@
 name: Lint, Build & Test
 
-on: workflow_dispatch
+on: push
 
 jobs:
   macos:

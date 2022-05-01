@@ -2,7 +2,7 @@
 
 A framework for calling the PEKA API endpoint easily.
 
-Documentation will be published soon.
+See the [documentation](https://pambrozy.github.io/PekaAPI/documentation/pekaapi/).
 
 ## License
 PekaAPI is released under the 2-Clause BSD License. [See LICENSE](LICENSE) for details.
