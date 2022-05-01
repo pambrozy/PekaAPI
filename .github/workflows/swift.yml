@@ -13,5 +13,5 @@ jobs:
         run: swiftlint lint --strict
       - name: Build
         run: swift build
-      - name: Test
-        run: swift test
+#      - name: Test
+#        run: swift test
