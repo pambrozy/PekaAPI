@@ -1,1 +1,239 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":" "},{"kind":"internalParam","text":"decoder"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Decoder","preciseIdentifier":"s:s7DecoderP"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/timesforallbollards\/init(from:)"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/init(from:)","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"Decodable.init(from:)"},{"type":"text","text":"."}],"kind":"symbol","metadata":{"fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Decoder","preciseIdentifier":"s:s7DecoderP"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"title":"init(from:)","roleHeading":"Initializer","role":"symbol","symbolKind":"init","externalID":"s:7PekaAPI19TimesForAllBollardsV4fromACs7Decoder_p_tKcfc","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards"]]},"references":{"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards":{"role":"symbol","title":"TimesForAllBollards","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"TimesForAllBollards"}],"abstract":[{"type":"text","text":"Successful response containing the list of bollards with departure times."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"TimesForAllBollards"}],"url":"\/documentation\/pekaapi\/timesforallbollards"},"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards/init(from:)":{"role":"symbol","title":"init(from:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Decoder","preciseIdentifier":"s:s7DecoderP"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"abstract":[],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/init(from:)","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/timesforallbollards\/init(from:)"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "Decodable.init(from:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/init(from:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI19TimesForAllBollardsV4fromACs7Decoder_p_tKcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s7DecoderP",
+        "text" : "Decoder"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(from:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "from"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "decoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s7DecoderP",
+              "text" : "Decoder"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/timesforallbollards\/init(from:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards": {
+  "abstract" : [
+    {
+      "text" : "Successful response containing the list of bollards with departure times.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TimesForAllBollards"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TimesForAllBollards"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TimesForAllBollards",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/timesforallbollards"
+},
+"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/timesforallbollards\/init(from:)"
+}
+}
+}

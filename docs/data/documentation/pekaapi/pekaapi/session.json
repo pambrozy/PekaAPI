@@ -1,1 +1,202 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"session"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"URLSession","preciseIdentifier":"c:objc(cs)NSURLSession"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/pekaapi\/session"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/session","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"The URLSession used to make the calls to the endpoint."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"session"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"URLSession","preciseIdentifier":"c:objc(cs)NSURLSession"}],"title":"session","roleHeading":"Instance Property","role":"symbol","symbolKind":"property","externalID":"s:7PekaAPIAAC7sessionSo12NSURLSessionCvp","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI"]]},"references":{"doc://PekaAPI/documentation/PekaAPI/PekaAPI/session":{"role":"symbol","title":"session","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"session"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"URLSession","preciseIdentifier":"c:objc(cs)NSURLSession"}],"abstract":[{"type":"text","text":"The URLSession used to make the calls to the endpoint."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/session","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/pekaapi\/session"},"doc://PekaAPI/documentation/PekaAPI/PekaAPI":{"role":"symbol","title":"PekaAPI","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"PekaAPI"}],"abstract":[{"type":"text","text":"A class responsible for fetching information from the PEKA API endpoints."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"PekaAPI"}],"url":"\/documentation\/pekaapi\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"}}}
+{
+  "abstract" : [
+    {
+      "text" : "The URLSession used to make the calls to the endpoint.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/session"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPIAAC7sessionSo12NSURLSessionCvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "session"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)NSURLSession",
+        "text" : "URLSession"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "session"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "session"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)NSURLSession",
+              "text" : "URLSession"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/pekaapi\/session"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A class responsible for fetching information from the PEKA API endpoints.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PekaAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PekaAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/PekaAPI/session": {
+  "abstract" : [
+    {
+      "text" : "The URLSession used to make the calls to the endpoint.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "session"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSURLSession",
+      "text" : "URLSession"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/session",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "session",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/pekaapi\/session"
+}
+}
+}

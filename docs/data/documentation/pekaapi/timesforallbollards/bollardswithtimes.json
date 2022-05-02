@@ -1,1 +1,249 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"bollardsWithTimes"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardWithTimes","preciseIdentifier":"s:7PekaAPI16BollardWithTimesV","text":"BollardWithTimes"},{"kind":"text","text":"]"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/timesforallbollards\/bollardswithtimes"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/bollardsWithTimes","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"The list of bollards with departure times."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"bollardsWithTimes"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","text":"BollardWithTimes","preciseIdentifier":"s:7PekaAPI16BollardWithTimesV"},{"kind":"text","text":"]"}],"title":"bollardsWithTimes","roleHeading":"Instance Property","role":"symbol","symbolKind":"property","externalID":"s:7PekaAPI19TimesForAllBollardsV012bollardsWithC0SayAA07BollardhC0VGvp","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards"]]},"references":{"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards":{"role":"symbol","title":"TimesForAllBollards","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"TimesForAllBollards"}],"abstract":[{"type":"text","text":"Successful response containing the list of bollards with departure times."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"TimesForAllBollards"}],"url":"\/documentation\/pekaapi\/timesforallbollards"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards/bollardsWithTimes":{"role":"symbol","title":"bollardsWithTimes","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"bollardsWithTimes"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","text":"BollardWithTimes","preciseIdentifier":"s:7PekaAPI16BollardWithTimesV"},{"kind":"text","text":"]"}],"abstract":[{"type":"text","text":"The list of bollards with departure times."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/bollardsWithTimes","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/timesforallbollards\/bollardswithtimes"},"doc://PekaAPI/documentation/PekaAPI/BollardWithTimes":{"role":"symbol","title":"BollardWithTimes","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardWithTimes"}],"abstract":[{"type":"text","text":"A bollard with a list of departure times."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardWithTimes","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"BollardWithTimes"}],"url":"\/documentation\/pekaapi\/bollardwithtimes"}}}
+{
+  "abstract" : [
+    {
+      "text" : "The list of bollards with departure times.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/bollardsWithTimes"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI19TimesForAllBollardsV012bollardsWithC0SayAA07BollardhC0VGvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "bollardsWithTimes"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7PekaAPI16BollardWithTimesV",
+        "text" : "BollardWithTimes"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "bollardsWithTimes"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "bollardsWithTimes"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardWithTimes",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7PekaAPI16BollardWithTimesV",
+              "text" : "BollardWithTimes"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/timesforallbollards\/bollardswithtimes"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardWithTimes": {
+  "abstract" : [
+    {
+      "text" : "A bollard with a list of departure times.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BollardWithTimes"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardWithTimes",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BollardWithTimes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BollardWithTimes",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardwithtimes"
+},
+"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards": {
+  "abstract" : [
+    {
+      "text" : "Successful response containing the list of bollards with departure times.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TimesForAllBollards"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TimesForAllBollards"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TimesForAllBollards",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/timesforallbollards"
+},
+"doc://PekaAPI/documentation/PekaAPI/TimesForAllBollards/bollardsWithTimes": {
+  "abstract" : [
+    {
+      "text" : "The list of bollards with departure times.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bollardsWithTimes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7PekaAPI16BollardWithTimesV",
+      "text" : "BollardWithTimes"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/TimesForAllBollards\/bollardsWithTimes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bollardsWithTimes",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/timesforallbollards\/bollardswithtimes"
+}
+}
+}

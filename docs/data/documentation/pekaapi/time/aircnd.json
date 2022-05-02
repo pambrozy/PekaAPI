@@ -1,1 +1,214 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"airCnd"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":"?"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/time\/aircnd"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time\/airCnd","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Whether the vehicle contains air conditioning."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"airCnd"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":"?"}],"title":"airCnd","roleHeading":"Instance Property","role":"symbol","symbolKind":"property","externalID":"s:7PekaAPI4TimeV6airCndSbSgvp","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time"]]},"references":{"doc://PekaAPI/documentation/PekaAPI/Time":{"role":"symbol","title":"Time","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"Time"}],"abstract":[{"type":"text","text":"A departure time for a bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"Time"}],"url":"\/documentation\/pekaapi\/time"},"doc://PekaAPI/documentation/PekaAPI/Time/airCnd":{"role":"symbol","title":"airCnd","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"airCnd"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":"?"}],"abstract":[{"type":"text","text":"Whether the vehicle contains air conditioning."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time\/airCnd","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/time\/aircnd"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Whether the vehicle contains air conditioning.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time\/airCnd"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI4TimeV6airCndSbSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "airCnd"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "airCnd"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "airCnd"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/time\/aircnd"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/Time": {
+  "abstract" : [
+    {
+      "text" : "A departure time for a bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Time"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Time"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Time",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/time"
+},
+"doc://PekaAPI/documentation/PekaAPI/Time/airCnd": {
+  "abstract" : [
+    {
+      "text" : "Whether the vehicle contains air conditioning.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "airCnd"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Time\/airCnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "airCnd",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/time\/aircnd"
+}
+}
+}

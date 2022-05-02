@@ -1,1 +1,245 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"symbol"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/stoppoint\/symbol"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint\/symbol","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"The identifier of the stop point."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"symbol"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"title":"symbol","roleHeading":"Instance Property","role":"symbol","symbolKind":"property","externalID":"s:7PekaAPI9StopPointV6symbolSSvp","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint"]]},"references":{"doc://PekaAPI/documentation/PekaAPI/StopPoint":{"role":"symbol","title":"StopPoint","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"StopPoint"}],"abstract":[{"type":"text","text":"A named stop point, which may contain multiple "},{"type":"reference","isActive":true,"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard"},{"type":"text","text":"s."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"StopPoint"}],"url":"\/documentation\/pekaapi\/stoppoint"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard":{"role":"symbol","title":"BollardBollard","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardBollard"}],"abstract":[{"type":"text","text":"A single bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"BollardBollard"}],"url":"\/documentation\/pekaapi\/bollardbollard"},"doc://PekaAPI/documentation/PekaAPI/StopPoint/symbol":{"role":"symbol","title":"symbol","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"symbol"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"abstract":[{"type":"text","text":"The identifier of the stop point."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint\/symbol","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/stoppoint\/symbol"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"}}}
+{
+  "abstract" : [
+    {
+      "text" : "The identifier of the stop point.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint\/symbol"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI9StopPointV6symbolSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "symbol"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "symbol"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "symbol"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/stoppoint\/symbol"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard": {
+  "abstract" : [
+    {
+      "text" : "A single bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BollardBollard",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard"
+},
+"doc://PekaAPI/documentation/PekaAPI/StopPoint": {
+  "abstract" : [
+    {
+      "text" : "A named stop point, which may contain multiple ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : "s.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StopPoint"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StopPoint"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StopPoint",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/stoppoint"
+},
+"doc://PekaAPI/documentation/PekaAPI/StopPoint/symbol": {
+  "abstract" : [
+    {
+      "text" : "The identifier of the stop point.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbol"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint\/symbol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbol",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/stoppoint\/symbol"
+}
+}
+}

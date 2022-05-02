@@ -1,1 +1,431 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"stopPoints"},{"kind":"text","text":"("},{"kind":"externalParam","text":"query"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> ["},{"kind":"typeIdentifier","identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint","preciseIdentifier":"s:7PekaAPI9StopPointV","text":"StopPoint"},{"kind":"text","text":"]"}],"languages":["swift"],"platforms":["macOS"]}]},{"kind":"content","content":[{"anchor":"return-value","level":2,"type":"heading","text":"Return Value"},{"type":"paragraph","inlineContent":[{"type":"text","text":"A list of stop points matching the query."}]}]},{"kind":"parameters","parameters":[{"name":"query","content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Part of the stop point’s name."}]}]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/pekaapi\/stoppoints(query:)"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/stopPoints(query:)","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Searches of the stop points whose names match the query."}],"kind":"symbol","metadata":{"role":"symbol","title":"stopPoints(query:)","roleHeading":"Instance Method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"stopPoints"},{"kind":"text","text":"("},{"kind":"externalParam","text":"query"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> ["},{"kind":"typeIdentifier","text":"StopPoint","preciseIdentifier":"s:7PekaAPI9StopPointV"},{"kind":"text","text":"]"}],"symbolKind":"method","externalID":"s:7PekaAPIAAC10stopPoints5querySayAA9StopPointVGSS_tYaKF","extendedModule":"PekaAPI","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI"]]},"references":{"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI/StopPoint":{"role":"symbol","title":"StopPoint","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"StopPoint"}],"abstract":[{"type":"text","text":"A named stop point, which may contain multiple "},{"type":"reference","isActive":true,"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard"},{"type":"text","text":"s."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"StopPoint"}],"url":"\/documentation\/pekaapi\/stoppoint"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard":{"role":"symbol","title":"BollardBollard","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardBollard"}],"abstract":[{"type":"text","text":"A single bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"BollardBollard"}],"url":"\/documentation\/pekaapi\/bollardbollard"},"doc://PekaAPI/documentation/PekaAPI/PekaAPI":{"role":"symbol","title":"PekaAPI","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"PekaAPI"}],"abstract":[{"type":"text","text":"A class responsible for fetching information from the PEKA API endpoints."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"PekaAPI"}],"url":"\/documentation\/pekaapi\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI/PekaAPI/stopPoints(query:)":{"role":"symbol","title":"stopPoints(query:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"stopPoints"},{"kind":"text","text":"("},{"kind":"externalParam","text":"query"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":") "},{"kind":"keyword","text":"async"},{"kind":"text","text":" "},{"kind":"keyword","text":"throws"},{"kind":"text","text":" -> ["},{"kind":"typeIdentifier","text":"StopPoint","preciseIdentifier":"s:7PekaAPI9StopPointV"},{"kind":"text","text":"]"}],"abstract":[{"type":"text","text":"Searches of the stop points whose names match the query."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/stopPoints(query:)","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/pekaapi\/stoppoints(query:)"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Searches of the stop points whose names match the query.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/stopPoints(query:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "PekaAPI",
+    "externalID" : "s:7PekaAPIAAC10stopPoints5querySayAA9StopPointVGSS_tYaKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "stopPoints"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "query"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7PekaAPI9StopPointV",
+        "text" : "StopPoint"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "stopPoints(query:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "stopPoints"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "query"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> ["
+            },
+            {
+              "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7PekaAPI9StopPointV",
+              "text" : "StopPoint"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A list of stop points matching the query.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Part of the stop point’s name.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "query"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/pekaapi\/stoppoints(query:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard": {
+  "abstract" : [
+    {
+      "text" : "A single bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BollardBollard",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard"
+},
+"doc://PekaAPI/documentation/PekaAPI/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A class responsible for fetching information from the PEKA API endpoints.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PekaAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PekaAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/PekaAPI/stopPoints(query:)": {
+  "abstract" : [
+    {
+      "text" : "Searches of the stop points whose names match the query.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stopPoints"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "query"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7PekaAPI9StopPointV",
+      "text" : "StopPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/stopPoints(query:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stopPoints(query:)",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/pekaapi\/stoppoints(query:)"
+},
+"doc://PekaAPI/documentation/PekaAPI/StopPoint": {
+  "abstract" : [
+    {
+      "text" : "A named stop point, which may contain multiple ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : "s.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StopPoint"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StopPoint",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StopPoint"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StopPoint",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/stoppoint"
+}
+}
+}

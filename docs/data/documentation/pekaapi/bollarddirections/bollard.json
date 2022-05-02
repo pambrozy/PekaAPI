@@ -1,1 +1,237 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"bollard"},{"kind":"text","text":": "},{"kind":"typeIdentifier","identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard","preciseIdentifier":"s:7PekaAPI07BollardC0V","text":"BollardBollard"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/bollarddirections\/bollard"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections\/bollard","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"The bollard."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"bollard"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"BollardBollard","preciseIdentifier":"s:7PekaAPI07BollardC0V"}],"title":"bollard","roleHeading":"Instance Property","role":"symbol","symbolKind":"property","externalID":"s:7PekaAPI17BollardDirectionsV7bollardAA0cC0Vvp","modules":[{"name":"PekaAPI"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI","doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections"]]},"references":{"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI/BollardDirections/bollard":{"role":"symbol","title":"bollard","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"bollard"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"BollardBollard","preciseIdentifier":"s:7PekaAPI07BollardC0V"}],"abstract":[{"type":"text","text":"The bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections\/bollard","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/bollarddirections\/bollard"},"doc://PekaAPI/documentation/PekaAPI/BollardDirections":{"role":"symbol","title":"BollardDirections","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardDirections"}],"abstract":[{"type":"text","text":"A bollard with a list of directions coming out of it."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"BollardDirections"}],"url":"\/documentation\/pekaapi\/bollarddirections"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard":{"role":"symbol","title":"BollardBollard","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardBollard"}],"abstract":[{"type":"text","text":"A single bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"BollardBollard"}],"url":"\/documentation\/pekaapi\/bollardbollard"}}}
+{
+  "abstract" : [
+    {
+      "text" : "The bollard.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections\/bollard"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI17BollardDirectionsV7bollardAA0cC0Vvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "bollard"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7PekaAPI07BollardC0V",
+        "text" : "BollardBollard"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "bollard"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "bollard"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7PekaAPI07BollardC0V",
+              "text" : "BollardBollard"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/bollarddirections\/bollard"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard": {
+  "abstract" : [
+    {
+      "text" : "A single bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BollardBollard",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardDirections": {
+  "abstract" : [
+    {
+      "text" : "A bollard with a list of directions coming out of it.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BollardDirections"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BollardDirections"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BollardDirections",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollarddirections"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardDirections/bollard": {
+  "abstract" : [
+    {
+      "text" : "The bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bollard"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7PekaAPI07BollardC0V",
+      "text" : "BollardBollard"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardDirections\/bollard",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bollard",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollarddirections\/bollard"
+}
+}
+}

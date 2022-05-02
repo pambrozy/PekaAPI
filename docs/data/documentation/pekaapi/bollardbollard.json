@@ -1,1 +1,372 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardBollard"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/bollardbollard"],"traits":[{"interfaceLanguage":"swift"}]}],"relationshipsSections":[{"identifiers":["doc:\/\/PekaAPI\/Se","doc:\/\/PekaAPI\/SE","doc:\/\/PekaAPI\/SQ","doc:\/\/PekaAPI\/SH"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"A single bollard."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardBollard"}],"title":"BollardBollard","roleHeading":"Structure","role":"symbol","symbolKind":"struct","externalID":"s:7PekaAPI07BollardC0V","modules":[{"name":"PekaAPI"}],"navigatorTitle":[{"kind":"identifier","text":"BollardBollard"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI"]]},"topicSections":[{"title":"Initializers","identifiers":["doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/init(from:)"]},{"title":"Instance Properties","identifiers":["doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/name","doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/symbol","doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/tag"]},{"title":"Default Implementations","identifiers":["doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/Equatable-Implementations"],"generated":true}],"references":{"doc://PekaAPI/documentation/PekaAPI/BollardBollard":{"role":"symbol","title":"BollardBollard","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"BollardBollard"}],"abstract":[{"type":"text","text":"A single bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"BollardBollard"}],"url":"\/documentation\/pekaapi\/bollardbollard"},"doc://PekaAPI/SE":{"type":"unresolvable","title":"Swift.Encodable","identifier":"doc:\/\/PekaAPI\/SE"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard/init(from:)":{"role":"symbol","title":"init(from:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Decoder","preciseIdentifier":"s:s7DecoderP"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"abstract":[],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/init(from:)","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/bollardbollard\/init(from:)"},"doc://PekaAPI/SQ":{"type":"unresolvable","title":"Swift.Equatable","identifier":"doc:\/\/PekaAPI\/SQ"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard/symbol":{"role":"symbol","title":"symbol","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"symbol"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"abstract":[{"type":"text","text":"The identifier of the bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/symbol","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/bollardbollard\/symbol"},"doc://PekaAPI/Se":{"type":"unresolvable","title":"Swift.Decodable","identifier":"doc:\/\/PekaAPI\/Se"},"doc://PekaAPI/SH":{"type":"unresolvable","title":"Swift.Hashable","identifier":"doc:\/\/PekaAPI\/SH"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard/tag":{"role":"symbol","title":"tag","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"tag"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"abstract":[{"type":"text","text":"Alternative identifier of the bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/tag","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/bollardbollard\/tag"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard/Equatable-Implementations":{"role":"collectionGroup","title":"Equatable Implementations","abstract":[],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/Equatable-Implementations","kind":"article","type":"topic","url":"\/documentation\/pekaapi\/bollardbollard\/equatable-implementations"},"doc://PekaAPI/documentation/PekaAPI/BollardBollard/name":{"role":"symbol","title":"name","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"name"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"abstract":[{"type":"text","text":"The name of the bollard."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/name","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/bollardbollard\/name"}}}
+{
+  "abstract" : [
+    {
+      "text" : "A single bollard.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI07BollardC0V",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "BollardBollard"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "BollardBollard"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "BollardBollard"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "BollardBollard"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/Se",
+        "doc:\/\/PekaAPI\/SE",
+        "doc:\/\/PekaAPI\/SQ",
+        "doc:\/\/PekaAPI\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/name",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/symbol",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/tag"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/bollardbollard"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/SE": {
+  "identifier" : "doc:\/\/PekaAPI\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/SH": {
+  "identifier" : "doc:\/\/PekaAPI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/SQ": {
+  "identifier" : "doc:\/\/PekaAPI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/Se": {
+  "identifier" : "doc:\/\/PekaAPI\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard": {
+  "abstract" : [
+    {
+      "text" : "A single bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BollardBollard"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BollardBollard",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard\/equatable-implementations"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard\/init(from:)"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard/name": {
+  "abstract" : [
+    {
+      "text" : "The name of the bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/name",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard\/name"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard/symbol": {
+  "abstract" : [
+    {
+      "text" : "The identifier of the bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "symbol"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/symbol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "symbol",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard\/symbol"
+},
+"doc://PekaAPI/documentation/PekaAPI/BollardBollard/tag": {
+  "abstract" : [
+    {
+      "text" : "Alternative identifier of the bollard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tag"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/BollardBollard\/tag",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tag",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/bollardbollard\/tag"
+}
+}
+}

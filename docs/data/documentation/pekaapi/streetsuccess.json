@@ -1,1 +1,270 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"StreetSuccess"}],"languages":["swift"],"platforms":["macOS"]}]}],"schemaVersion":{"major":0,"minor":2,"patch":0},"sections":[],"variants":[{"paths":["\/documentation\/pekaapi\/streetsuccess"],"traits":[{"interfaceLanguage":"swift"}]}],"relationshipsSections":[{"identifiers":["doc:\/\/PekaAPI\/Se","doc:\/\/PekaAPI\/SE"],"kind":"relationships","title":"Conforms To","type":"conformsTo"}],"identifier":{"url":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess","interfaceLanguage":"swift"},"abstract":[{"type":"text","text":"Successful response containing the list of streets."}],"kind":"symbol","metadata":{"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"StreetSuccess"}],"title":"StreetSuccess","roleHeading":"Structure","role":"symbol","symbolKind":"struct","externalID":"s:7PekaAPI13StreetSuccessV","modules":[{"name":"PekaAPI"}],"navigatorTitle":[{"kind":"identifier","text":"StreetSuccess"}]},"hierarchy":{"paths":[["doc:\/\/PekaAPI\/documentation\/PekaAPI"]]},"topicSections":[{"title":"Initializers","identifiers":["doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/init(from:)"]},{"title":"Instance Properties","identifiers":["doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/success"]}],"references":{"doc://PekaAPI/documentation/PekaAPI/StreetSuccess/success":{"role":"symbol","title":"success","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"success"},{"kind":"text","text":": ["},{"kind":"typeIdentifier","text":"Street","preciseIdentifier":"s:7PekaAPI6StreetV"},{"kind":"text","text":"]"}],"abstract":[{"type":"text","text":"The list of streets."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/success","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/streetsuccess\/success"},"doc://PekaAPI/documentation/PekaAPI":{"role":"collection","title":"PekaAPI","abstract":[{"type":"text","text":"A framework for calling the PEKA API endpoint easily."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi"},"doc://PekaAPI/documentation/PekaAPI/StreetSuccess/init(from:)":{"role":"symbol","title":"init(from:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"("},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Decoder","preciseIdentifier":"s:s7DecoderP"},{"kind":"text","text":") "},{"kind":"keyword","text":"throws"}],"abstract":[],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/init(from:)","kind":"symbol","type":"topic","url":"\/documentation\/pekaapi\/streetsuccess\/init(from:)"},"doc://PekaAPI/documentation/PekaAPI/StreetSuccess":{"role":"symbol","title":"StreetSuccess","fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"StreetSuccess"}],"abstract":[{"type":"text","text":"Successful response containing the list of streets."}],"identifier":"doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess","kind":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"StreetSuccess"}],"url":"\/documentation\/pekaapi\/streetsuccess"},"doc://PekaAPI/SE":{"type":"unresolvable","title":"Swift.Encodable","identifier":"doc:\/\/PekaAPI\/SE"},"doc://PekaAPI/Se":{"type":"unresolvable","title":"Swift.Decodable","identifier":"doc:\/\/PekaAPI\/Se"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Successful response containing the list of streets.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7PekaAPI13StreetSuccessV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StreetSuccess"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "StreetSuccess"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "StreetSuccess"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "StreetSuccess"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/Se",
+        "doc:\/\/PekaAPI\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/success"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/streetsuccess"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/SE": {
+  "identifier" : "doc:\/\/PekaAPI\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/Se": {
+  "identifier" : "doc:\/\/PekaAPI\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/StreetSuccess": {
+  "abstract" : [
+    {
+      "text" : "Successful response containing the list of streets.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StreetSuccess"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StreetSuccess"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StreetSuccess",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/streetsuccess"
+},
+"doc://PekaAPI/documentation/PekaAPI/StreetSuccess/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/streetsuccess\/init(from:)"
+},
+"doc://PekaAPI/documentation/PekaAPI/StreetSuccess/success": {
+  "abstract" : [
+    {
+      "text" : "The list of streets.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "success"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7PekaAPI6StreetV",
+      "text" : "Street"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/StreetSuccess\/success",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "success",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/streetsuccess\/success"
+}
+}
+}
