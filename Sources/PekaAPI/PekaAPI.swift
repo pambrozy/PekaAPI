@@ -12,7 +12,7 @@ import Foundation
 public class PekaAPI {
     /// Represents an error that may occur when creating the request.
     public enum RequestMakingError: Error {
-        /// Indicates that the parameters of teh request can not be encoded.
+        /// Indicates that the parameters of the request can not be encoded.
         case encodingParameters
         /// Indicates that the body of the request can not be encoded.
         case encodingBody
