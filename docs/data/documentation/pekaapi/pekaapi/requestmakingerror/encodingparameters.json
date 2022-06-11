@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Indicates that the parameters of teh request can not be encoded.",
+      "text" : "Indicates that the parameters of the request can not be encoded.",
       "type" : "text"
     }
   ],
@@ -181,7 +181,7 @@
 "doc://PekaAPI/documentation/PekaAPI/PekaAPI/RequestMakingError/encodingParameters": {
   "abstract" : [
     {
-      "text" : "Indicates that the parameters of teh request can not be encoded.",
+      "text" : "Indicates that the parameters of the request can not be encoded.",
       "type" : "text"
     }
   ],
