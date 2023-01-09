@@ -1,0 +1,571 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Classes",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/init(url:session:)",
+                "title" : "init(url: URL, session: URLSession)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/session",
+                "title" : "let session: URLSession",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/url",
+                "title" : "let url: URL",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/bollardsbystoppoint(name:)",
+                "title" : "func bollardsByStopPoint(name: String) async throws -> [BollardDirections]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/bollardsbystreet(name:)",
+                "title" : "func bollardsByStreet(name: String) async throws -> [BollardDirections]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/lines(query:)",
+                "title" : "func lines(query: String) async throws -> [Line]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/stoppoints(query:)",
+                "title" : "func stopPoints(query: String) async throws -> [StopPoint]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/streets(query:)",
+                "title" : "func streets(query: String) async throws -> [Street]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/times(stopname:)",
+                "title" : "func times(stopName: String) async throws -> TimesForAllBollards",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/pekaapi\/times(symbol:)",
+                "title" : "func times(symbol: String) async throws -> BollardWithTimes",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror\/encodingbody",
+                    "title" : "case encodingBody",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror\/encodingparameters",
+                    "title" : "case encodingParameters",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror\/localizeddescription",
+                        "title" : "var localizedDescription: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror\/error-implementations",
+                    "title" : "Error Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/pekaapi\/requestmakingerror",
+                "title" : "PekaAPI.RequestMakingError",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/pekaapi",
+            "title" : "PekaAPI",
+            "type" : "class"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardbollard\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardbollard\/name",
+                "title" : "let name: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardbollard\/symbol",
+                "title" : "let symbol: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardbollard\/tag",
+                "title" : "let tag: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/bollardbollard\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/bollardbollard\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/bollardbollard",
+            "title" : "BollardBollard",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollarddirections\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollarddirections\/bollard",
+                "title" : "let bollard: BollardBollard",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollarddirections\/directions",
+                "title" : "let directions: [Direction]",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/bollarddirections",
+            "title" : "BollardDirections",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardwithtimes\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardwithtimes\/bollard",
+                "title" : "let bollard: BollardBollard",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/bollardwithtimes\/times",
+                "title" : "let times: [Time]",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/bollardwithtimes\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/bollardwithtimes\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/bollardwithtimes",
+            "title" : "BollardWithTimes",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/direction\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/direction\/direction",
+                "title" : "let direction: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/direction\/linename",
+                "title" : "let lineName: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/direction\/returnvariant",
+                "title" : "let returnVariant: Bool",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/direction",
+            "title" : "Direction",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/line\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/line\/name",
+                "title" : "let name: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/line",
+            "title" : "Line",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/stoppoint\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/stoppoint\/name",
+                "title" : "let name: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/stoppoint\/symbol",
+                "title" : "let symbol: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/stoppoint",
+            "title" : "StopPoint",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/street\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/street\/id",
+                "title" : "let id: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/street\/name",
+                "title" : "let name: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/street",
+            "title" : "Street",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/streetsuccess\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/streetsuccess\/success",
+                "title" : "let success: [Street]",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/streetsuccess",
+            "title" : "StreetSuccess",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/aircnd",
+                "title" : "let airCnd: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/bike",
+                "title" : "let bike: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/charger",
+                "title" : "let charger: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/departure",
+                "title" : "let departure: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/direction",
+                "title" : "let direction: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/leramp",
+                "title" : "let leRamp: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/lframp",
+                "title" : "let lfRamp: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/line",
+                "title" : "let line: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/lowentrancebus",
+                "title" : "let lowEntranceBus: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/lowfloorbus",
+                "title" : "let lowFloorBus: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/minutes",
+                "title" : "let minutes: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/onstoppoint",
+                "title" : "let onStopPoint: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/realtime",
+                "title" : "let realTime: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/time\/ticketmachine",
+                "title" : "let ticketMachine: Bool?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/time\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/time\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/time",
+            "title" : "Time",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/timesforallbollards\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/pekaapi\/timesforallbollards\/bollardswithtimes",
+                "title" : "let bollardsWithTimes: [BollardWithTimes]",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/pekaapi\/timesforallbollards",
+            "title" : "TimesForAllBollards",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/pekaapi",
+        "title" : "PekaAPI",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}
