@@ -31,7 +31,7 @@ public class PekaAPI {
     ///   - url: The URL of the endpoint.
     ///   - session: The URLSession to use to make the calls to the endpoint.
     public init(
-        url: URL = URL(string: "http://www.peka.poznan.pl/vm/method.vm")!,
+        url: URL = URL(string: "https://www.peka.poznan.pl/vm/method.vm")!,
         session: URLSession = .shared
     ) {
         self.url = url

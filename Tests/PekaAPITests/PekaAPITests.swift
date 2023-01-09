@@ -13,7 +13,7 @@ final class PekaAPITests: XCTestCase {
     private enum Constants {
         static let nonExisting = "Non-existing"
         static let stopPointName = "Rondo Kaponiera"
-        static let streetName = "Fredry"
+        static let streetName = "Grunwaldzka"
         static let lineName = "3"
         static let bollardSymbol = "RKAP71"
     }
