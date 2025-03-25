@@ -9,9 +9,9 @@
 import Foundation
 
 /// A class responsible for fetching information from the PEKA API endpoints.
-public class PekaAPI {
+public final class PekaAPI: Sendable {
     /// Represents an error that may occur when creating the request.
-    public enum RequestMakingError: Error {
+    public enum RequestMakingError: Error, Hashable, Sendable {
         /// Indicates that the parameters of the request can not be encoded.
         case encodingParameters
         /// Indicates that the body of the request can not be encoded.

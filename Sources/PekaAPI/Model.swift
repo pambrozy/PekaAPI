@@ -6,16 +6,14 @@
 //  Copyright © 2022 Przemysław Ambroży
 //
 
-import Foundation
-
 // MARK: Stop points
 
-struct StopPointSuccess: Codable {
+struct StopPointSuccess: Codable, Hashable, Sendable {
     let success: [StopPoint]
 }
 
 /// A named stop point, which may contain multiple ``BollardBollard``s.
-public struct StopPoint: Codable {
+public struct StopPoint: Codable, Hashable, Sendable {
     /// The identifier of the stop point.
     public let symbol: String
 
@@ -25,16 +23,16 @@ public struct StopPoint: Codable {
 
 // MARK: Bollards and directions
 
-struct BollardSuccess: Codable {
+struct BollardSuccess: Codable, Hashable, Sendable {
     let success: BollardSuccessBollards
 }
 
-struct BollardSuccessBollards: Codable {
+struct BollardSuccessBollards: Codable, Hashable, Sendable {
     let bollards: [BollardDirections]
 }
 
 /// A bollard with a list of directions coming out of it.
-public struct BollardDirections: Codable {
+public struct BollardDirections: Codable, Hashable, Sendable {
     /// The list of directions coming out of a bollard.
     public let directions: [Direction]
 
@@ -43,7 +41,7 @@ public struct BollardDirections: Codable {
 }
 
 /// A single bollard.
-public struct BollardBollard: Hashable, Codable {
+public struct BollardBollard: Codable, Hashable, Sendable {
     /// The identifier of the bollard.
     public let symbol: String
 
@@ -55,7 +53,7 @@ public struct BollardBollard: Hashable, Codable {
 }
 
 /// The direction in which the traffic is moving.
-public struct Direction: Codable {
+public struct Direction: Codable, Hashable, Sendable {
     public let returnVariant: Bool
 
     /// The name of the direction.
@@ -67,12 +65,12 @@ public struct Direction: Codable {
 
 // MARK: Lines
 
-struct LineSuccess: Codable {
+struct LineSuccess: Codable, Hashable, Sendable {
     let success: [Line]
 }
 
 /// A single line.
-public struct Line: Codable {
+public struct Line: Codable, Hashable, Sendable {
     /// The name of the line.
     public let name: String
 }
@@ -80,13 +78,13 @@ public struct Line: Codable {
 // MARK: Streets
 
 /// Successful response containing the list of streets.
-public struct StreetSuccess: Codable {
+public struct StreetSuccess: Codable, Hashable, Sendable {
     /// The list of streets.
     public let success: [Street]
 }
 
 /// A street.
-public struct Street: Codable {
+public struct Street: Codable, Hashable, Sendable {
     /// An identifier of the street.
     public let id: Int
 
@@ -96,12 +94,12 @@ public struct Street: Codable {
 
 // MARK: Times
 
-struct TimesSuccess: Codable {
+struct TimesSuccess: Codable, Hashable, Sendable {
     let success: BollardWithTimes
 }
 
 /// A bollard with a list of departure times.
-public struct BollardWithTimes: Hashable, Codable {
+public struct BollardWithTimes: Codable, Hashable, Sendable {
     /// A bollard.
     public let bollard: BollardBollard
 
@@ -110,7 +108,7 @@ public struct BollardWithTimes: Hashable, Codable {
 }
 
 /// A departure time for a bollard.
-public struct Time: Hashable, Codable {
+public struct Time: Codable, Hashable, Sendable {
     /// The amount of minutes until the vehicle arrives at the bollard.
     public let minutes: Int
 
@@ -150,12 +148,12 @@ public struct Time: Hashable, Codable {
     public let leRamp: Bool?
 }
 
-struct TimesForAllBollardsSuccess: Codable {
+struct TimesForAllBollardsSuccess: Codable, Hashable, Sendable {
     let success: TimesForAllBollards
 }
 
 /// Successful response containing the list of bollards with departure times.
-public struct TimesForAllBollards: Codable {
+public struct TimesForAllBollards: Codable, Hashable, Sendable {
     /// The list of bollards with departure times.
     public let bollardsWithTimes: [BollardWithTimes]
 }
