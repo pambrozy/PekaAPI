@@ -62,6 +62,14 @@
           "tokens" : [
             {
               "kind" : "keyword",
+              "text" : "final"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
               "text" : "class"
             },
             {
@@ -78,6 +86,16 @@
       "kind" : "declarations"
     }
   ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/s8SendableP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -88,12 +106,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/init(url:session:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/session",
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/url"
@@ -101,6 +123,8 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/bollardsByStopPoint(name:)",
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/bollardsByStreet(name:)",
@@ -113,6 +137,8 @@
       "title" : "Instance Methods"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/RequestMakingError"
       ],
@@ -856,6 +882,11 @@
   "title" : "url",
   "type" : "topic",
   "url" : "\/documentation\/pekaapi\/pekaapi\/url"
+},
+"doc://PekaAPI/s8SendableP": {
+  "identifier" : "doc:\/\/PekaAPI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

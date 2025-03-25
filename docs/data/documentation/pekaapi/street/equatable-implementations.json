@@ -1,0 +1,168 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Street"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Street\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "PekaAPI"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Street\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/pekaapi\/street\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://PekaAPI/documentation/PekaAPI": {
+  "abstract" : [
+    {
+      "text" : "A framework for calling the PEKA API endpoint easily.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "PekaAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi"
+},
+"doc://PekaAPI/documentation/PekaAPI/Street": {
+  "abstract" : [
+    {
+      "text" : "A street.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Street"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Street",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Street"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Street",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/street"
+},
+"doc://PekaAPI/documentation/PekaAPI/Street/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Street\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/street\/!=(_:_:)"
+}
+}
+}

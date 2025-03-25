@@ -82,7 +82,10 @@
     {
       "identifiers" : [
         "doc:\/\/PekaAPI\/Se",
-        "doc:\/\/PekaAPI\/SE"
+        "doc:\/\/PekaAPI\/SE",
+        "doc:\/\/PekaAPI\/SQ",
+        "doc:\/\/PekaAPI\/SH",
+        "doc:\/\/PekaAPI\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -99,18 +102,30 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Direction\/init(from:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Direction\/direction",
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Direction\/lineName",
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Direction\/returnVariant"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Direction\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -130,6 +145,16 @@
 "doc://PekaAPI/SE": {
   "identifier" : "doc:\/\/PekaAPI\/SE",
   "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/SH": {
+  "identifier" : "doc:\/\/PekaAPI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://PekaAPI/SQ": {
+  "identifier" : "doc:\/\/PekaAPI\/SQ",
+  "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
 "doc://PekaAPI/Se": {
@@ -184,6 +209,17 @@
   "title" : "Direction",
   "type" : "topic",
   "url" : "\/documentation\/pekaapi\/direction"
+},
+"doc://PekaAPI/documentation/PekaAPI/Direction/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/PekaAPI\/documentation\/PekaAPI\/Direction\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/pekaapi\/direction\/equatable-implementations"
 },
 "doc://PekaAPI/documentation/PekaAPI/Direction/direction": {
   "abstract" : [
@@ -241,7 +277,7 @@
     },
     {
       "kind" : "text",
-      "text" : ": "
+      "text" : ": any "
     },
     {
       "kind" : "typeIdentifier",
@@ -334,6 +370,11 @@
   "title" : "returnVariant",
   "type" : "topic",
   "url" : "\/documentation\/pekaapi\/direction\/returnvariant"
+},
+"doc://PekaAPI/s8SendableP": {
+  "identifier" : "doc:\/\/PekaAPI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

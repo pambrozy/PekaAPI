@@ -1,4 +1,7 @@
 {
+  "includedArchiveIdentifiers" : [
+    "PekaAPI"
+  ],
   "interfaceLanguages" : {
     "swift" : [
       {
@@ -149,7 +152,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/bollardbollard\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -204,7 +207,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/bollarddirections\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -220,6 +223,26 @@
                 "path" : "\/documentation\/pekaapi\/bollarddirections\/directions",
                 "title" : "let directions: [Direction]",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/bollarddirections\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/bollarddirections\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/bollarddirections",
@@ -234,7 +257,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/bollardwithtimes\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -284,7 +307,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/direction\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -305,6 +328,26 @@
                 "path" : "\/documentation\/pekaapi\/direction\/returnvariant",
                 "title" : "let returnVariant: Bool",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/direction\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/direction\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/direction",
@@ -319,7 +362,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/line\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -330,6 +373,26 @@
                 "path" : "\/documentation\/pekaapi\/line\/name",
                 "title" : "let name: String",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/line\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/line\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/line",
@@ -344,7 +407,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/stoppoint\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -360,6 +423,26 @@
                 "path" : "\/documentation\/pekaapi\/stoppoint\/symbol",
                 "title" : "let symbol: String",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/stoppoint\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/stoppoint\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/stoppoint",
@@ -374,7 +457,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/street\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -390,6 +473,26 @@
                 "path" : "\/documentation\/pekaapi\/street\/name",
                 "title" : "let name: String",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/street\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/street\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/street",
@@ -404,7 +507,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/streetsuccess\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -415,6 +518,26 @@
                 "path" : "\/documentation\/pekaapi\/streetsuccess\/success",
                 "title" : "let success: [Street]",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/streetsuccess\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/streetsuccess\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/streetsuccess",
@@ -429,7 +552,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/time\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -539,7 +662,7 @@
               },
               {
                 "path" : "\/documentation\/pekaapi\/timesforallbollards\/init(from:)",
-                "title" : "init(from: Decoder) throws",
+                "title" : "init(from: any Decoder) throws",
                 "type" : "init"
               },
               {
@@ -550,6 +673,26 @@
                 "path" : "\/documentation\/pekaapi\/timesforallbollards\/bollardswithtimes",
                 "title" : "let bollardsWithTimes: [BollardWithTimes]",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/pekaapi\/timesforallbollards\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/pekaapi\/timesforallbollards\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/pekaapi\/timesforallbollards",
@@ -566,6 +709,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 0
+    "patch" : 2
   }
 }

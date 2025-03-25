@@ -102,6 +102,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/RequestMakingError\/encodingBody",
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/RequestMakingError\/encodingParameters"
@@ -109,6 +111,7 @@
       "title" : "Enumeration Cases"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/PekaAPI\/documentation\/PekaAPI\/PekaAPI\/RequestMakingError\/Equatable-Implementations",
