@@ -7,9 +7,10 @@
 //
 
 @testable import PekaAPI
-import XCTest
+import Testing
 
-final class PekaAPITests: XCTestCase {
+@Suite
+struct PekaAPITests {
     private enum Constants {
         static let nonExisting = "Non-existing"
         static let stopPointName = "Rondo Kaponiera"
@@ -17,72 +18,71 @@ final class PekaAPITests: XCTestCase {
         static let lineName = "3"
         static let bollardSymbol = "RKAP71"
     }
-    let api = PekaAPI()
+    private let api = PekaAPI()
 
-    func testStopPoints() async throws {
+    @Test
+    func stopPoints() async throws {
         let existing = try await api.stopPoints(query: Constants.stopPointName)
-        XCTAssertFalse(existing.isEmpty)
+        #expect(!existing.isEmpty)
 
         let nonExisting = try await api.stopPoints(query: Constants.nonExisting)
-        XCTAssertTrue(nonExisting.isEmpty)
+        #expect(nonExisting.isEmpty)
     }
 
-    func testBollardsByStopPoint() async throws {
+    @Test
+    func bollardsByStopPoint() async throws {
         let existing = try await api.bollardsByStopPoint(name: Constants.stopPointName)
-        XCTAssertFalse(existing.isEmpty)
+        #expect(!existing.isEmpty)
 
-        do {
+        await #expect(throws: DecodingError.self) {
             _ = try await api.bollardsByStopPoint(name: Constants.nonExisting)
-            XCTFail("Found bollards on non-existing stop point")
-        } catch {
-            XCTAssert(error is DecodingError)
         }
     }
 
-    func testBollardsByStreet() async throws {
+    @Test
+    func bollardsByStreet() async throws {
         let existing = try await api.bollardsByStreet(name: Constants.streetName)
-        XCTAssertFalse(existing.isEmpty)
+        #expect(!existing.isEmpty)
 
-        do {
+        await #expect(throws: DecodingError.self) {
             _ = try await api.bollardsByStreet(name: Constants.nonExisting)
-            XCTFail("Found bollards on non-existing street")
-        } catch {
-            XCTAssert(error is DecodingError)
         }
     }
 
-    func testLines() async throws {
+    @Test
+    func lines() async throws {
         let existing = try await api.lines(query: Constants.lineName)
-        XCTAssertFalse(existing.isEmpty)
+        #expect(!existing.isEmpty)
 
         let nonExisting = try await api.lines(query: Constants.nonExisting)
-        XCTAssertTrue(nonExisting.isEmpty)
+        #expect(nonExisting.isEmpty)
     }
 
-    func testStreets() async throws {
+    @Test
+    func streets() async throws {
         let existing = try await api.streets(query: Constants.streetName)
-        XCTAssertFalse(existing.isEmpty)
+        #expect(!existing.isEmpty)
 
         let nonExisting = try await api.streets(query: Constants.nonExisting)
-        XCTAssertTrue(nonExisting.isEmpty)
+        #expect(nonExisting.isEmpty)
     }
 
-    func testTimes() async throws {
-        _ = try await api.times(symbol: Constants.bollardSymbol)
+    @Test
+    func times() async throws {
+        let bollardWithTimes = try await api.times(symbol: Constants.bollardSymbol)
+        #expect(bollardWithTimes.bollard.symbol == Constants.bollardSymbol)
 
-        do {
+        await #expect(throws: DecodingError.self) {
             _ = try await api.times(symbol: Constants.nonExisting)
-            XCTFail("Found times for non-existing bollard")
-        } catch {
-            XCTAssert(error is DecodingError)
         }
     }
 
-    func testTimesStopName() async throws {
+    @Test
+    func timesStopName() async throws {
         let existing = try await api.times(stopName: Constants.stopPointName)
-        XCTAssertFalse(existing.bollardsWithTimes.isEmpty)
+        #expect(!existing.bollardsWithTimes.isEmpty)
 
         let nonExisting = try await api.times(stopName: Constants.nonExisting)
-        XCTAssertTrue(nonExisting.bollardsWithTimes.isEmpty)
+        #expect(nonExisting.bollardsWithTimes.isEmpty)
     }
 }
