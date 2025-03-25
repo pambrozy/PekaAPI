@@ -1,17 +1,24 @@
-name: Lint, Build & Test
+name: CI
 
 on: push
 
 jobs:
-  macos:
-    name: Lint, Build & Test
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/realm/swiftlint:latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint
+        run: swiftlint lint --reporter github-actions-logging --strict
+  build:
+    name: Build & Test
     runs-on: macos-latest
     steps:
-      - uses: fwal/setup-swift@v1
-      - uses: actions/checkout@v3
-      - name: Lint
-        run: swiftlint lint --strict
+      - uses: actions/checkout@v4
+      - uses: SwiftyLab/setup-swift@latest
       - name: Build
-        run: swift build
-#      - name: Test
-#        run: swift test
+        run: swift build -v
+      - name: Test
+        run: swift test -v
